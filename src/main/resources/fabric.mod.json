@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "deepslate-instamine",
+	"version": "${version}",
+	"name": "DeepslateInstamine",
+	"description": "It just sets the hardness of deepslate to the same as stone, aka making it insta-mineable",
+	"authors": [
+		"Auster"
+	],
+	"license": "GPL-3.0-only",
+	"icon": "assets/deepslate-instamine/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "io.github.codedauster.DeepslateInstamine"
+		]
+
+	},
+	"mixins": [
+		"deepslate-instamine.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17"
+	}
+
+}
